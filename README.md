@@ -3,7 +3,7 @@
 ### The circuit design 
 The circuit contains:
 
-- aduino UNO.
+- Arduino UNO.
 - Breadboard.
 - 5 servo motors.
 - Wires ( red= power , black= ground , yellow= signal).
