@@ -1,5 +1,5 @@
-# control-5servo-motors-
-## designing and programing 5 servo motors circuit.
+# Control 5servo motors
+## Designing and Programing 5 servo motors circuit.
 ### The circuit design 
 The circuit contains:
 
@@ -9,8 +9,10 @@ The circuit contains:
 - Wires ( red= power , black= ground , yellow= signal).
  
 and the circuit was designed using tinkercad website as below:
+#### Diagram preview:
 ![Anwar servo motors circuit design](https://user-images.githubusercontent.com/86317095/123286750-d8e7d180-d516-11eb-9f9e-f376e253f061.png)
 
-### control 5 servo motors to move from 0 to 90 degree.
-Tinkercad was used to implement the code on the hardware
+### Programing 5 servo motors to move from 0 to 90 degree.
+
+
 
