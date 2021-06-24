@@ -14,8 +14,8 @@ and the circuit was designed using tinkercad website as below:
 
 ### Programing 5 servo motors to move from 0 to 90 degree.
  The electronic circuit was programmed using the C++ language via the Tinkercad website as shown  below.
- #### The cod of the project: 
- 
+ #### The code of the project: 
+ ... 
  #include <Servo.h>
 
 Servo servomotor1 ;
@@ -48,7 +48,9 @@ void loop()
     
     delay (15);
   }
+  ...
   
+ 
  
  ### For simulation:
  - [Press here ](https://www.tinkercad.com/things/iE3pcfJqkCu-anwar-servo-motor-circuit)
