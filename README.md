@@ -4,13 +4,10 @@
 The circuit contains:
 
 - aduino UNO.
-- 
 - Breadboard.
-- 
 - 5 servo motors.
-- 
 - Wires ( red= power , black= ground , yellow= signal).
--  
+ 
 and the circuit was designed using tinkercad website as below:
 ![Anwar servo motors circuit design](https://user-images.githubusercontent.com/86317095/123286750-d8e7d180-d516-11eb-9f9e-f376e253f061.png)
 
