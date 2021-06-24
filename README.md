@@ -13,13 +13,13 @@ and the circuit was designed using tinkercad website as below:
 ![Anwar servo motors circuit design](https://user-images.githubusercontent.com/86317095/123286750-d8e7d180-d516-11eb-9f9e-f376e253f061.png)
 
 ### Programing 5 servo motors to move from 0 to 90 degree.
- The electronic circuit was programmed using the C++ language via the Tinkercad website as shown  below.
- #### The code of the project: 
- ---
+ The circuit was programmed using the C++ language via the Tinkercad website as shown in ino file in this repository.
  
-//task 1 Anwar
-
-#include <Servo.h>
+ #### Code Explanation:
+ ---
+ Defining the servos 
+```
+ #include <Servo.h>
 
 Servo servomotor1 ;
 Servo servomotor2 ;
@@ -28,7 +28,9 @@ Servo servomotor4 ;
 Servo servomotor5 ;
 
 int i=0 ; //initial position 
-
+```
+sitting up:
+```
 void setup()
 {
   servomotor1.attach(3);
@@ -39,7 +41,9 @@ void setup()
 
   
 }
-
+```
+Programming the servo motors to move from 0 to 90 degree 
+```
 void loop()
 {
   for ( i=0 ; i<=90; i++){
@@ -62,7 +66,9 @@ void loop()
     delay(15);
   }
     
-  ---
+}
+```
+ 
  ### For simulation:
  - [Press here ](https://www.tinkercad.com/things/iE3pcfJqkCu-anwar-servo-motor-circuit)
  
