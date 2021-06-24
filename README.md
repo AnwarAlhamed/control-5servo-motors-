@@ -17,7 +17,9 @@ and the circuit was designed using tinkercad website as below:
  #### The code of the project: 
  ---
  
- #include <Servo.h>
+//task 1 Anwar
+
+#include <Servo.h>
 
 Servo servomotor1 ;
 Servo servomotor2 ;
@@ -49,10 +51,18 @@ void loop()
     
     delay (15);
   }
- ---
   
- 
- 
+  for ( i=90 ; i>=0; i--){
+   servomotor1.write(i);
+   servomotor2.write(i);
+   servomotor3.write(i);
+   servomotor4.write(i);
+   servomotor5.write(i);
+    
+    delay(15);
+  }
+    
+  ---
  ### For simulation:
  - [Press here ](https://www.tinkercad.com/things/iE3pcfJqkCu-anwar-servo-motor-circuit)
  
